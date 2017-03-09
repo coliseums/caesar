@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author Greg Turnquist
  */
-// tag::code[]
+
 @Component
 public class DatabaseLoader implements CommandLineRunner {
 
@@ -38,4 +38,3 @@ public class DatabaseLoader implements CommandLineRunner {
 		this.repository.save(new Person("Boris", "Bobejko", "Kerah"));
 	}
 }
-// end::code[]
